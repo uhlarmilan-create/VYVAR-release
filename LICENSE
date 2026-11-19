@@ -1,0 +1,21 @@
+VYVAR - Free License
+Copyright (c) 2026 Milan Uhlar.
+
+VYVAR is distributed free of charge in compiled form. Anyone may download it from
+https://github.com/uhlarmilan-create/VYVAR-release, install it and use it for any purpose -
+private, scientific, educational or commercial. The results you produce with VYVAR are yours.
+
+Please download VYVAR only from the repository above, so that everyone uses the same verified
+build (see SHA256SUMS of each release).
+
+VYVAR includes the Python runtime and third-party Python packages. They are licensed by their
+authors under their own licenses, reproduced in THIRD_PARTY_NOTICES.txt.
+
+If you publish results obtained with VYVAR, please cite it as described in the user manual
+(appendix "How to cite VYVAR").
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
