@@ -2,6 +2,12 @@
 
 [Cesky](README_CZ.md)
 
+![VYVAR - observe, measure, discover: one night, one click, light curves you can trust](img/VYVAR_promo.jpg)
+
+*Why the name? In Czech and Slovak a vyvar is a broth: everything goes into the pot, simmers for a long time,
+and what is left is the essence. VYVAR does the same with a night of frames: the stars cook all night, and what is
+left in the morning is the light curve.*
+
 **VYVAR** is a program for differential photometry of variable stars. It takes the FITS images of one observing
 night - the science frames ("lights") and the calibration frames - and turns them into light curves of every
 known variable star in the field, with an honest error for every point, a judgement of how far each light curve

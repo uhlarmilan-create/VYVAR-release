@@ -2,6 +2,11 @@
 
 [English](README.md)
 
+![VYVAR - pozorovat, merit, objevovat: jedna noc, jedno kliknuti, svetelne krivky, kterym muzete verit](img/VYVAR_promo.jpg)
+
+*Proc VYVAR? Vyvar je to, co zustane, kdyz se vsechno da do hrnce a necha dlouho varit: vytazek, podstata. VYVAR
+dela totez s noci snimku: hvezdy se vari celou noc a rano zustane svetelna krivka.*
+
 Automaticka diferencialni fotometrie promennych hvezd: od surovych snimku FITS jedne noci po kalibrovane,
 astrometricky vyresene svetelne krivky s exportem pro AAVSO a VarAstro a s PDF reporty.
 
