@@ -17,6 +17,8 @@ Aktualni verze: **0.9.0b1 (beta)**.
 **Prirucka:** [cesky (PDF)](docs/VYVAR_Manual_CZ.pdf) - [anglicky (PDF)](docs/VYVAR_Manual_EN.pdf).
 Kapitola 2 prirucky je navod k instalaci; kratka verze je v [INSTALL_VYVAR_CZ.md](INSTALL_VYVAR_CZ.md).
 
+**Kontakt:** [uhlar.milan@gmail.com](mailto:uhlar.milan@gmail.com?subject=VYVAR) - do predmetu napiste **VYVAR**.
+
 ![Beh pipeline](img/gui_pipeline_varstrem.jpg)
 
 ## Co umi
@@ -44,6 +46,7 @@ Kapitola 2 prirucky je navod k instalaci; kratka verze je v [INSTALL_VYVAR_CZ.md
 0.9.0b1 je prvni verejna beta. Overenou cestou je aperturni fotometrie (kapitola 21 prirucky); fotometrie ePSF
 je oznacena jako beta a ve vychozim stavu je vypnuta. Vysledky pred zverejnenim zkontrolujte a problemy hlaste
 v [Issues](https://github.com/uhlarmilan-create/VYVAR-release/issues).
+Muzete take napsat autorovi: [uhlar.milan@gmail.com](mailto:uhlar.milan@gmail.com?subject=VYVAR), predmet **VYVAR**.
 
 ![Aperturni fotometrie](img/gui_aperture_photometry.jpg)
 

@@ -24,6 +24,7 @@ every choice the program makes is recorded, so a result can be checked and repro
 | **User manual** | [English (PDF)](docs/VYVAR_Manual_EN.pdf) - [Czech (PDF)](docs/VYVAR_Manual_CZ.pdf) |
 | **Installation** | [INSTALL_VYVAR_EN.md](INSTALL_VYVAR_EN.md) (short) - chapter 2 of the manual (full) |
 | **License** | Free to download and use, including commercial use - [LICENSE](LICENSE) |
+| **Contact** | [uhlar.milan@gmail.com](mailto:uhlar.milan@gmail.com?subject=VYVAR) - subject **VYVAR** |
 
 ![A night run in the VYVAR interface](img/gui_pipeline_varstrem.jpg)
 
@@ -122,6 +123,8 @@ ask before the first start.
 0.9.0b1 is the first public beta. Check your results before you publish them, and report problems or questions
 in [Issues](https://github.com/uhlarmilan-create/VYVAR-release/issues); the run log (`infolog_<time>.txt` in the
 processed field) helps to answer them.
+
+You can also write to the author: [uhlar.milan@gmail.com](mailto:uhlar.milan@gmail.com?subject=VYVAR), with **VYVAR** in the subject.
 
 ## Citing VYVAR
 
