@@ -22,6 +22,7 @@ every choice the program makes is recorded, so a result can be checked and repro
 | **Current version** | **0.9.0b1** - first public beta |
 | **Download** | [Releases](https://github.com/uhlarmilan-create/VYVAR-release/releases): `VYVAR-<version>-win64.zip` (Windows), `VYVAR-<version>-linux-x64.tar.gz` (Linux), `SHA256SUMS` |
 | **User manual** | [English (PDF)](docs/VYVAR_Manual_EN.pdf) - [Czech (PDF)](docs/VYVAR_Manual_CZ.pdf) |
+| **Sample report** | [BO CVn, 23 April 2026 (PDF, 79 pages)](docs/VYVAR_sample_report_BO_CVn_20260423.pdf) - what a night run produces |
 | **Installation** | [INSTALL_VYVAR_EN.md](INSTALL_VYVAR_EN.md) (short) - chapter 2 of the manual (full) |
 | **License** | Free to download and use, including commercial use - [LICENSE](LICENSE) |
 | **Contact** | [uhlar.milan@gmail.com](mailto:uhlar.milan@gmail.com?subject=VYVAR) - subject **VYVAR** |
@@ -60,6 +61,8 @@ and the methods with their references (Part III).
 - The **PDF Summary Measure Report**: a page per target with its light curve, check star and comparison stars,
   plus the field map, a Hertzsprung-Russell diagram of the field, the field variability search and the exact
   settings and code version of the run.
+  Example: the [report of one night of BO CVn](docs/VYVAR_sample_report_BO_CVn_20260423.pdf) (29 light curves, 146 frames; the observing-site
+  coordinates are blacked out).
 - A list of **new variable-star candidates** found in the field.
 - Interactive views of all of this in the graphical interface (a local web page in your browser).
 

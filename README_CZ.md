@@ -15,6 +15,10 @@ astrometricky vyresene svetelne krivky s exportem pro AAVSO a VarAstro a s PDF r
 Aktualni verze: **0.9.0b1 (beta)**.
 
 **Prirucka:** [cesky (PDF)](docs/VYVAR_Manual_CZ.pdf) - [anglicky (PDF)](docs/VYVAR_Manual_EN.pdf).
+
+**Ukazkovy report:** [BO CVn, 23. 4. 2026 (PDF, 79 stran)](docs/VYVAR_sample_report_BO_CVn_20260423.pdf) - co vytvori zpracovani jedne noci
+(souradnice pozorovaciho stanoviste jsou zacernene).
+
 Kapitola 2 prirucky je navod k instalaci; kratka verze je v [INSTALL_VYVAR_CZ.md](INSTALL_VYVAR_CZ.md).
 
 **Kontakt:** [uhlar.milan@gmail.com](mailto:uhlar.milan@gmail.com?subject=VYVAR) - do predmetu napiste **VYVAR**.
