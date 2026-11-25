@@ -35,8 +35,14 @@ Kapitola 2 prirucky je navod k instalaci; kratka verze je v [INSTALL_VYVAR_CZ.md
 - Mono i jednosnimkove barevne (OSC) kamery; barevna transformace do pasem Johnson-Cousins podle Gaia.
 - Export v AAVSO Extended Format a pro VarAstro, PDF reporty s matici metod a referencemi.
 - Rozhrani (mistni webova stranka) a nocni beh z prikazove radky spousteji stejny kod.
+- **Live view** behem pozorovani: kazdy novy snimek, ktery kamera ulozi, prida bod do svetelne krivky kazde
+  zakrytove dvojhvezdy (VSX EA, EB, EW) a hvezdy RR Lyrae v poli - vsech najednou, kazda ve vlastnim malem grafu.
+  Je to rychly nahled (aperturni fotometrie proti nejvyse trem srovnavacim hvezdam podobne barvy); krivky
+  k publikaci da nasledne plne zpracovani noci. Popis je v kapitole 5 prirucky.
 
 ![Promennost](img/gui_variability.jpg)
+
+![Live view: devet zakrytovych hvezd a hvezd RR Lyrae v poli behem noci BO CVn](img/gui_live_view.jpg)
 
 ## Pozadavky
 

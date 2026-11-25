@@ -68,6 +68,16 @@ and the methods with their references (Part III).
 
 ![Variability of a target](img/gui_variability.jpg)
 
+## Live view - watch the light curves grow during the night
+
+Point **Live view** at the folder your capture program saves the lights into: every new light adds a point to
+the light curve of every eclipsing binary (VSX EA, EB, EW) and RR Lyrae star of the field, a few seconds after it is
+written - all of them at once, each in its own small chart. It is a quick look (aperture photometry against at
+most three comparison stars of similar colour, saturated and too faint stars left out); the light curves you
+publish come from the full night run afterwards. Chapter 5 of the manual describes it.
+
+![Live view: nine eclipsing and RR Lyrae stars of the field during a night of BO CVn](img/gui_live_view.jpg)
+
 ## Cameras and data
 
 - Monochrome cameras with any filter, and one-shot colour (OSC) cameras: OSC images are split into their Bayer
