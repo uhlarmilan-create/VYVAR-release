@@ -4,14 +4,17 @@ Uplny navod je kapitola 2 prirucky ([docs/VYVAR_Manual_CZ.pdf](docs/VYVAR_Manual
 
 ## 1. Stazeni a kontrola
 
-1. Stahnete `VYVAR-<verze>-win64.zip` (Windows) nebo `VYVAR-<verze>-linux-x64.tar.gz` (Linux) z
+1. Stahnete `VYVAR-<verze>-win64.zip` (Windows), `VYVAR-<verze>-linux-x64.tar.gz` (Linux na PC) nebo
+   `VYVAR-<verze>-linux-aarch64.tar.gz` (Raspberry Pi 4 / 5, 64bitovy system) z
    <https://github.com/uhlarmilan-create/VYVAR-release/releases> spolu se souborem `SHA256SUMS`.
 2. Porovnejte kontrolni soucet s radkem v `SHA256SUMS`:
    - Windows: `certutil -hashfile VYVAR-<verze>-win64.zip SHA256`
    - Linux: `sha256sum VYVAR-<verze>-linux-x64.tar.gz`
 3. Rozbalte do trvale slozky, napriklad `C:\Program Files\VYVAR\` nebo `~/apps/vyvar/`.
 
-Balicek obsahuje vlastni Python 3.12; systemovy Python se nepouziva. Linux potrebuje glibc 2.39 nebo novejsi.
+Balicek obsahuje vlastni Python 3.12; systemovy Python se nepouziva. Linux na PC potrebuje glibc 2.39 nebo
+novejsi; balicek pro Raspberry Pi potrebuje 64bitovy system s glibc 2.28 nebo novejsi (Raspberry Pi OS 64-bit
+Bookworm nebo novejsi) a spousti se jako balicek pro Linux.
 
 ## 2. Slozka programu a datova slozka
 

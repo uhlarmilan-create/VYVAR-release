@@ -4,14 +4,17 @@ The full guide is chapter 2 of the manual ([docs/VYVAR_Manual_EN.pdf](docs/VYVAR
 
 ## 1. Download and check
 
-1. Download `VYVAR-<version>-win64.zip` (Windows) or `VYVAR-<version>-linux-x64.tar.gz` (Linux) from
+1. Download `VYVAR-<version>-win64.zip` (Windows), `VYVAR-<version>-linux-x64.tar.gz` (Linux on a PC) or
+   `VYVAR-<version>-linux-aarch64.tar.gz` (Raspberry Pi 4 / 5, 64-bit OS) from
    <https://github.com/uhlarmilan-create/VYVAR-release/releases>, together with `SHA256SUMS`.
 2. Compare the checksum with the line in `SHA256SUMS`:
    - Windows: `certutil -hashfile VYVAR-<version>-win64.zip SHA256`
    - Linux: `sha256sum VYVAR-<version>-linux-x64.tar.gz`
 3. Unpack to a permanent folder, for example `C:\Program Files\VYVAR\` or `~/apps/vyvar/`.
 
-The package brings its own Python 3.12; your system Python is not used. Linux needs glibc 2.39 or newer.
+The package brings its own Python 3.12; your system Python is not used. Linux on a PC needs glibc 2.39 or
+newer; the Raspberry Pi package needs a 64-bit system with glibc 2.28 or newer (Raspberry Pi OS 64-bit Bookworm
+or newer), and is started like the Linux package.
 
 ## 2. Program folder and data folder
 

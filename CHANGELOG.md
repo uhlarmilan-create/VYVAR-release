@@ -12,6 +12,8 @@ Same version (beta testing); new packages replace the earlier 0.9.0b1 downloads.
 - Results no longer depend on the row order SQLite returns: Gaia and VSX reads in a fixed order, and the two
   seeded samples (artifact check, transient FWHM) are taken in a fixed order.
 - `--vacuum-into` of the Gaia catalogue keeps the WAL journal mode of the copy.
+- New package `linux-aarch64` for the Raspberry Pi 4 / 5 (64-bit OS), beta: built and tested on emulated
+  ARM64, not yet measured on a real Pi.
 
 ## 0.9.0b1 - first public beta
 

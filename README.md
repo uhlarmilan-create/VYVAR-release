@@ -20,7 +20,7 @@ every choice the program makes is recorded, so a result can be checked and repro
 | | |
 |---|---|
 | **Current version** | **0.9.0b1** - first public beta |
-| **Download** | [Releases](https://github.com/uhlarmilan-create/VYVAR-release/releases): `VYVAR-<version>-win64.zip` (Windows), `VYVAR-<version>-linux-x64.tar.gz` (Linux), `SHA256SUMS` |
+| **Download** | [Releases](https://github.com/uhlarmilan-create/VYVAR-release/releases): `VYVAR-<version>-win64.zip` (Windows), `VYVAR-<version>-linux-x64.tar.gz` (Linux), `VYVAR-<version>-linux-aarch64.tar.gz` (Raspberry Pi 4 / 5), `SHA256SUMS` |
 | **User manual** | [English (PDF)](docs/VYVAR_Manual_EN.pdf) - [Czech (PDF)](docs/VYVAR_Manual_CZ.pdf) |
 | **Sample report** | [BO CVn, 23 April 2026 (PDF, 79 pages)](docs/VYVAR_sample_report_BO_CVn_20260423.pdf) - what a night run produces |
 | **Installation** | [INSTALL_VYVAR_EN.md](INSTALL_VYVAR_EN.md) (short) - chapter 2 of the manual (full) |
@@ -106,13 +106,17 @@ non-linearity or remove cosmic rays.
 
 | | Minimum | Recommended |
 |---|---|---|
-| Operating system | Windows 10 / 11 (64-bit) or Linux x86-64 with glibc 2.39 (e.g. Ubuntu 24.04) | Windows 11 |
+| Operating system | Windows 10 / 11 (64-bit), Linux x86-64 with glibc 2.39 (e.g. Ubuntu 24.04), or Raspberry Pi 4 / 5 with a 64-bit OS (new, see below) | Windows 11 |
 | Memory | 8 GB | 16 GB or more for full nights |
 | Disk | 12 GB for the catalogues + 2 GB for the program | 50 GB free for catalogues and data |
 | Processor | 4 logical CPUs | 8 or more |
 | Network | Needed to build the catalogues; optional during runs | - |
 
 The release package brings its own Python; nothing else has to be installed.
+
+**Raspberry Pi (new, beta):** the `linux-aarch64` package runs on a Raspberry Pi 4 or 5 with a 64-bit system
+(Raspberry Pi OS 64-bit Bookworm or newer; 8 GB memory and an SSD for the catalogues recommended). It is built and
+tested on emulated ARM64; its speed on a real Pi has not been measured yet. Manual section 2.1 has the details.
 
 ## Quick start
 

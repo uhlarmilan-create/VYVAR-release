@@ -11,7 +11,8 @@ Automaticka diferencialni fotometrie promennych hvezd: od surovych snimku FITS j
 astrometricky vyresene svetelne krivky s exportem pro AAVSO a VarAstro a s PDF reporty.
 
 **Ke stazeni:** [Releases](https://github.com/uhlarmilan-create/VYVAR-release/releases) -
-`VYVAR-<verze>-win64.zip` (Windows) nebo `VYVAR-<verze>-linux-x64.tar.gz` (Linux) se souborem `SHA256SUMS`.
+`VYVAR-<verze>-win64.zip` (Windows), `VYVAR-<verze>-linux-x64.tar.gz` (Linux) nebo
+`VYVAR-<verze>-linux-aarch64.tar.gz` (Raspberry Pi 4 / 5) se souborem `SHA256SUMS`.
 Aktualni verze: **0.9.0b1 (beta)**.
 
 **Prirucka:** [cesky (PDF)](docs/VYVAR_Manual_CZ.pdf) - [anglicky (PDF)](docs/VYVAR_Manual_EN.pdf).
@@ -47,6 +48,9 @@ Kapitola 2 prirucky je navod k instalaci; kratka verze je v [INSTALL_VYVAR_CZ.md
 ## Pozadavky
 
 - Windows 10/11 64bit, nebo Linux x86-64 s glibc 2.39 nebo novejsi.
+- Novinka (beta): Raspberry Pi 4 / 5 s 64bitovym systemem (Raspberry Pi OS 64-bit Bookworm nebo novejsi);
+  doporuceno 8 GB pameti a SSD pro katalogy. Balicek je sestaven a otestovan na emulovanem ARM64, rychlost na
+  skutecnem Pi zatim nebyla zmerena. Podrobnosti v oddilu 2.1 prirucky.
 - Instalacni balicek obsahuje vlastni Python; nic dalsiho neni treba instalovat.
 - Misto na disku pro mistni hvezdne katalogy: Gaia DR3 6-40 GB (podle limitni magnitudy), objekty asi 1 GB,
   volitelny index pro astrometrii naslepo asi 7 GB. Katalogy si VYVAR jednou postavi sam.
